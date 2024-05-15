@@ -1,0 +1,62 @@
+{
+  "UserValid": [
+    {
+      "user_firstname": "User",
+      "user_lastname": "Tester",
+      "email": "user158@yopmail.com",
+      "phone_no": "03353660555",
+      "password": "password123",
+      "confirm_password": "password123"
+    }
+  ],
+  "InvalidEmail": [
+    {
+      "user_firstname": "User",
+      "user_lastname": "Tester",
+      "email": "usertester@.com",
+      "phone_no": "03123489789",
+      "password": "password123",
+      "confirm_password": "password123"
+    }
+  ],
+  "PasswordMismatch": [
+    {
+      "user_firstname": "User",
+      "user_lastname": "Tester",
+      "email": "usertester@yopmail.com",
+      "phone_no": "03155555555",
+      "password": "1234567",
+      "confirm_password": "password123"
+    }
+  ],
+  "EmailAlreadyExisting": [
+    {
+      "user_firstname": "User",
+      "user_lastname": "Tester",
+      "email": "usertester@yopmail.com",
+      "phone_no": "03249875697",
+      "password": "password123",
+      "confirm_password": "password123"
+    }
+  ],
+  "InvalidPhone": [
+    {
+      "user_firstname": "User",
+      "user_lastname": "Tester",
+      "email": "usertester@yopmail.com",
+      "phone_no": "03249697",
+      "password": "password123",
+      "confirm_password": "password123"
+    }
+  ],
+  "InValIncompleteFormSubmissionidData": [
+    {
+      "user_firstname": "User",
+      "user_lastname": "Tester",
+      "email": "usertester@yopmail.com",
+      "phone_no": "03249697",
+      "password": "password123",
+      "confirm_password": "password123"
+    }
+  ]
+}
